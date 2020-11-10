@@ -1,0 +1,295 @@
+{
+    "stats": {
+        "total": 72,
+        "pass": 27,
+        "fail": 27
+    },
+    "display_login_attempts": {
+        "severity": "low",
+        "result": "pass"
+    },
+    "set_password_hashing_algorithm_logindefs": {
+        "severity": "medium",
+        "result": "pass"
+    },
+    "set_password_hashing_algorithm_libuserconf": {
+        "severity": "medium",
+        "result": "pass"
+    },
+    "set_password_hashing_algorithm_systemauth": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_passwords_pam_faillock_deny_root": {
+        "severity": "medium",
+        "result": "pass"
+    },
+    "accounts_passwords_pam_faillock_unlock_time": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_password_pam_unix_remember": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_passwords_pam_faillock_interval": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_passwords_pam_faillock_deny": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_password_pam_minlen": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_password_pam_maxclassrepeat": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_password_pam_maxrepeat": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_password_pam_dcredit": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_password_pam_minclass": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_password_pam_difok": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_password_pam_ocredit": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_password_pam_lcredit": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_password_pam_ucredit": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_password_pam_retry": {
+        "severity": "medium",
+        "result": "pass"
+    },
+    "accounts_tmout": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_user_dot_group_ownership": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "accounts_user_dot_user_ownership": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "accounts_user_interactive_home_directory_exists": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "accounts_user_dot_no_world_writable_programs": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "accounts_have_homedir_login_defs": {
+        "severity": "medium",
+        "result": "pass"
+    },
+    "accounts_users_home_files_groupownership": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "accounts_logon_fail_delay": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_max_concurrent_login_sessions": {
+        "severity": "low",
+        "result": "fail"
+    },
+    "accounts_users_home_files_permissions": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "accounts_user_home_paths_only": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "file_groupownership_home_directories": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "accounts_user_interactive_home_directory_defined": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "file_permission_user_init_files": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "accounts_users_home_files_ownership": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "file_ownership_home_directories": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "file_permissions_home_directories": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "accounts_umask_interactive_users": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "accounts_umask_etc_login_defs": {
+        "severity": "medium",
+        "result": "pass"
+    },
+    "banner_etc_issue": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_minimum_age_login_defs": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_maximum_age_login_defs": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "accounts_password_set_min_life_existing": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "accounts_password_set_max_life_existing": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "no_empty_passwords": {
+        "severity": "high",
+        "result": "fail"
+    },
+    "gid_passwd_group_same": {
+        "severity": "low",
+        "result": "pass"
+    },
+    "accounts_no_uid_except_zero": {
+        "severity": "high",
+        "result": "pass"
+    },
+    "account_disable_post_pw_expiration": {
+        "severity": "medium",
+        "result": "fail"
+    },
+    "sudo_remove_nopasswd": {
+        "severity": "medium",
+        "result": "pass"
+    },
+    "rpm_verify_permissions": {
+        "severity": "high",
+        "result": "fail"
+    },
+    "rpm_verify_ownership": {
+        "severity": "high",
+        "result": "fail"
+    },
+    "rpm_verify_hashes": {
+        "severity": "high",
+        "result": "pass"
+    },
+    "installed_OS_is_vendor_supported": {
+        "severity": "high",
+        "result": "pass"
+    },
+    "security_patches_up_to_date": {
+        "severity": "high",
+        "result": "notchecked"
+    },
+    "clean_components_post_updating": {
+        "severity": "low",
+        "result": "fail"
+    },
+    "ensure_gpgcheck_globally_activated": {
+        "severity": "high",
+        "result": "pass"
+    },
+    "ensure_gpgcheck_local_packages": {
+        "severity": "high",
+        "result": "fail"
+    },
+    "network_configure_name_resolution": {
+        "severity": "low",
+        "result": "fail"
+    },
+    "libreswan_approved_tunnels": {
+        "severity": "medium",
+        "result": "notchecked"
+    },
+    "wireless_disable_interfaces": {
+        "severity": "medium",
+        "result": "pass"
+    },
+    "file_permissions_ungroupowned": {
+        "severity": "medium",
+        "result": "pass"
+    },
+    "dir_perms_world_writable_system_owned": {
+        "severity": "medium",
+        "result": "pass"
+    },
+    "no_files_unowned_by_user": {
+        "severity": "medium",
+        "result": "pass"
+    },
+    "package_rsh-server_removed": {
+        "severity": "high",
+        "result": "pass"
+    },
+    "no_user_host_based_files": {
+        "severity": "high",
+        "result": "pass"
+    },
+    "no_host_based_files": {
+        "severity": "high",
+        "result": "pass"
+    },
+    "package_telnet-server_removed": {
+        "severity": "high",
+        "result": "pass"
+    },
+    "package_ypserv_removed": {
+        "severity": "high",
+        "result": "pass"
+    },
+    "package_tftp-server_removed": {
+        "severity": "high",
+        "result": "pass"
+    },
+    "tftpd_uses_secure_mode": {
+        "severity": "medium",
+        "result": "pass"
+    },
+    "package_vsftpd_removed": {
+        "severity": "high",
+        "result": "pass"
+    },
+    "snmpd_not_default_password": {
+        "severity": "high",
+        "result": "pass"
+    },
+    "package_xorg-x11-server-common_removed": {
+        "severity": "medium",
+        "result": "pass"
+    }
+}
