@@ -11,9 +11,9 @@ Docker
 2.     cd into repo
 3.     docker build --tag <name>:<version> .
        example: docker build --tag myoscap:latest .
-4.     docker run --rm <name>:<version> <cli arguments>
-       example: docker run --rm myoscap --scan
-
+4.     docker run -it -d <name>:<version>
+       example: docker run -it -d myoscap
+5.     docker start -i <container ID>
 ## Command Line Arguments
     -h --help            Show help message and exit
     --scan               Start a new scan
@@ -29,5 +29,5 @@ Docker
     docker run --rm myoscap --compare 1 2    //Compares scan with id 1 against scan with id 2
 
 ## Testing
-To facilitate testing, the docker image already contains 2 scans with diferences in order to test compare, history and scan-id functionality
+To facilitate testing, the docker image already contains 2 scans with diferences in order to test compare functionality
 
