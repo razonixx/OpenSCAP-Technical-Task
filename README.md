@@ -22,11 +22,11 @@ Docker
     --compare <id> <id>  Compare 2 scans by id
 
 ## Usage
-    docker run --rm myoscap -h               //Shows help message
-    docker run --rm myoscap --scan           //Starts a new scan
-    docker run --rm myoscap --scan-id 1      //Shows result of scan with id 1
-    docker run --rm myoscap --history        //Display scan history
-    docker run --rm myoscap --compare 1 2    //Compares scan with id 1 against scan with id 2
+    python3 my_oscap.py -h               //Shows help message
+    python3 my_oscap.py --scan           //Starts a new scan
+    python3 my_oscap.py --scan-id 1      //Shows result of scan with id 1
+    python3 my_oscap.py --history        //Display scan history
+    python3 my_oscap.py --compare 1 2    //Compares scan with id 1 against scan with id 2
 
 ## Testing
 To facilitate testing, the docker image already contains 2 scans with diferences in order to test compare functionality
